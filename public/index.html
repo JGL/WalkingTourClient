@@ -3,23 +3,24 @@
 
 <head>
 	<meta charset="UTF-8" />
+	<title>Walking Tour Client</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" href="favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<!-- via https://leafletjs.com/examples/mobile/ to disallow user scaling-->
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<!-- Bootstrap CSS include, via https://getbootstrap.com/ -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<title>Walking Tour Client</title>
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="apple-touch-icon" href="favicon.png" />
-	<!-- Font Awesome include, via https://fontawesome.com, used for resize, delete and save icons. -->
-	<script src="https://kit.fontawesome.com/7646a67a93.js"></script>
+	<script src="p5js/p5.js"></script>
+	<script src="p5js/addons/p5.dom.js"></script>
+	<script src="p5js/addons/p5.geolocation.js"></script>
+	<script src="sketch.js"></script>
 </head>
 
 <body>
 	<h3>Walking Tour Client</h3>
 	<div id="currentLocation">Trying to locate you. Please wait.</div>
-	<script src="client.js"></script>
 </body>
 
 </html>
